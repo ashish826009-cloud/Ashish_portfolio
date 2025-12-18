@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-$sg)r+5gw1qmw&8+c7!rhbu6+vjm!n6^y*o0e-($*)u6z6vbuw
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'https://ashish-portfolio-ap4c.onrender.com',
+    'ashish-portfolio-ap4c.onrender.com',
 ]
 
 
