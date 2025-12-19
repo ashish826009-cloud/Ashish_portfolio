@@ -27,4 +27,9 @@ Message:
             recipient_list=['ashishsikarwar268@gmail.com'],  # where you want to receive mail
             fail_silently=False,
         )
+        from django.conf import settings
+
+        print("EMAIL USER:", settings.EMAIL_HOST_USER)
+        print("EMAIL PASS EXISTS:", settings.EMAIL_HOST_PASSWORD is not None)
+
     return render(request,'portfolio/index.html')
